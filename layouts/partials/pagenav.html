@@ -12,5 +12,19 @@
                 </a>
             </div>
         {{ end }}
+
+        {{ if .IsTranslated }}
+            <div class="lang">
+                <a class="lang__title">Lang 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                    <polygon points="7.293 4.707 14.586 12 7.293 19.293 8.707 20.707 17.414 12 8.707 3.293 7.293 4.707"/>
+                  </svg></a>
+                <ul class="lang__item">
+                    {{ range .Translations }}
+                        <li class="lang__items"><a href="{{ .Permalink }}" class="lang__link">{{ .Language.LanguageName }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
     </div>
 </nav>
