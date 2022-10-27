@@ -298,7 +298,7 @@ a.p-author {
 }
 
 h2.list-title {
-  margin: 2em 0 0 0;
+  margin: 2em 0 0.5em 0;
   padding: 0;
 }
 
@@ -308,6 +308,7 @@ p.list-post-date {
   margin: 1em 0 1.5em 0;
   padding: 0;
   text-transform: uppercase;
+  color: #B2B2B2;
 }
 
 #footer {
@@ -487,11 +488,13 @@ div.page-nav-item > a:hover {
 
 div#pagination {
   display: inline-block;
-  margin: 3.5em 0;
+  margin: 3em auto;
+  width: 100%;
+  text-align: center;
 }
 
 div.pagination-item:hover {
-  background-color: #fff;
+  /* background-color: #fff; */
   /* background-color: #00416a; */
 }
 
@@ -505,7 +508,7 @@ div.pagination-item-spacer {
 }
 
 div.pagination-item > a {
-  color: #00416a;
+  color: #b2b2b2;
   display: block;
   text-decoration: none;
 }
