@@ -488,14 +488,13 @@ div.page-nav-item > a:hover {
 
 div#pagination {
   display: inline-block;
-  margin: 3em auto;
+  margin: 2em 0 0;
   width: 100%;
   text-align: center;
 }
 
-div.pagination-item:hover {
-  /* background-color: #fff; */
-  /* background-color: #00416a; */
+div.pagination-item-spacer {
+  font-size: 1.2rem;
 }
 
 div.pagination-item,
@@ -518,7 +517,7 @@ div.pagination-item > a:hover {
 }
 
 aside#social {
-  border-top: 2px solid #3f3f3f;
+  border-top: 2px solid transparent;
   display: flex;
   height: 48px;
   margin: 0 auto;
@@ -598,4 +597,52 @@ div.prev > a:hover,
 div.top > a:hover {
   background-color: #00416a;
   color: #dee5e9;
+}
+
+div#mc_embed_signup_scroll {
+  /* background-color: #538cfa; */
+  background-image: radial-gradient(circle at 1.6% 22.05%, #ffa6ff 0, #b583ff 25%, #535bfa 50%, #0034ad 75%, #00156b 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.mc-field-group {
+  display: flex;
+}
+
+#mc-embedded-subscribe {
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1em;
+  padding: 10px 32px;
+  text-decoration: none;
+  transition: all .3s;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+#mc-embedded-subscribe:hover {
+  border-color: #3E12E3;
+  background-color: #3E12E3;
+}
+
+#mce-EMAIL {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1em;
+  padding: 10px 32px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: all .3s;
+}
+
+#mce-EMAIL:focus,
+#mce-EMAIL:hover {
+  border: 1px solid #3E12E3;
 }
