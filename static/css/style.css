@@ -284,7 +284,7 @@ section.content {
 }
 
 p.post-date {
-  background-color: #00416a;
+  background-color: #0034ad;
   color: #dee5e9;
   font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   font-size: smaller;
@@ -307,8 +307,7 @@ p.list-post-date {
   font-size: smaller;
   margin: 1em 0 1.5em 0;
   padding: 0;
-  text-transform: uppercase;
-  color: #B2B2B2;
+  color: #fff;
 }
 
 #footer {
@@ -473,7 +472,7 @@ div.page-nav-spacer {
 }
 
 div.page-nav-item > a {
-  color: #00416a;
+  color: #0034ad;
   display: block;
   text-decoration: none;
   width: 100%;
@@ -505,7 +504,6 @@ div.pagination-item-spacer {
   float: left;
   margin: 0;
   padding: 0;
-  /* width: 20%; */
 }
 
 div.pagination-item > a {
@@ -552,15 +550,11 @@ div#social-icons {
 
 nav#article-skip {
   align-items: flex-start;
-  border-top: 1px solid #dee5e9;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
-  font-size: smaller;
   justify-content: space-around;
   line-height: 1em;
-  margin: 5em 0 0 0;
+  margin: 3em 0 0 0;
   padding: 0;
   text-align: center;
   text-transform: uppercase;
@@ -573,14 +567,6 @@ nav#article-skip {
   margin: 0;
   padding: 0.5em;
   width: 100%;
-}
-
-.next {
-  text-align: left;
-}
-
-.prev {
-  text-align: right;
 }
 
 .top {
@@ -597,14 +583,14 @@ div.prev > p {
 div.next > a,
 div.prev > a,
 div.top > a {
-  color: #00416a;
+  color: #bc0000;
   text-decoration: none;
 }
 
 div.next > a:hover,
 div.prev > a:hover,
 div.top > a:hover {
-  background-color: #00416a;
+  background-color: transparent;
   color: #dee5e9;
 }
 
